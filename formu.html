@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <title>Formulario y galeria </title>
+   <link rel="stylesheet" type="text/css" href="formula.css ">
+ </head>
+
+  <body style="background-image: url(img/fondo4.jpeg);">
+   <div id="todi"> 
+  	 <div id="arriba">
+  		 <header id="titulo ">
+  	        <nav>
+  		         <ul class="menu">
+  		     
+  				  
+  		          <li><a href="index.html" target="_blank">INICIO</a></li>
+  		          <li><a href="logros.html" target="_blank"> LOGROS </a></li>
+  		          <li> <a href="biografia.html" target="_blank"> BIOGRAFIA</a></li>
+                <li><a href="formu.html" target="_blank">FORMULARIO</a></li>
+                </ul>
+              </nav>
+        </header>  
+     </div>
+     <h1> Galeria de trabajos</h1>          
+    </div> 
+    <section class="galeria">
+
+          <div id="pr"><a href="#image1"> <img src="img/foto1.jpg" alt=""></a> </div> 
+          <div id="pt"><a href="#image2"> <img src="img/foto2.jpg" alt=""></a> </div>
+          <div id="py"><a href="#image3"> <img src="img/3foto.jpg" alt="" ></a> </div>
+          <div id="pw"><a href="#image4"> <img src="img/4foto.jpg" alt="" ></a> </div>
+          <div id="pq"><a href="#image5"> <img src="img/foto5.svg" alt=""> </a> </div>
+    </section>
+
+    <article class="light-box" id="image1">
+      <a href="#image5" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+      <img src="img/foto1.jpg">
+      <a href="#image2" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+      <a href="" class="close">X</a>
+    </article>
+
+    <article class="light-box" id="image2">
+      <a href="#image1" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+      <img src="img/foto2.jpg">
+      <a href="#image3" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+      <a href="" class="close">X</a>
+    </article>
+
+    <article class="light-box" id="image3">
+      <a href="#image2" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+      <img src="img/3foto.jpg">
+      <a href="#image4" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+      <a href="" class="close">X</a>
+    </article>
+
+    <article class="light-box" id="image4">
+      <a href="#image3" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+      <img src="img/4foto.jpg">
+      <a href="#image5" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+      <a href="" class="close">X</a>
+    </article>
+
+    <article class="light-box" id="image5">
+      <a href="#image4" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+      <img src="img/foto5.svg">
+      <a href="#image1" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+      <a href="" class="close">X</a>
+    </article>
+
+    <script src="https://kit.fontawesome.com/a3410b3b1d.js" crossorigin="anonymous"></script>
+    
+  
+       <div id="cuest"> 
+         <form action=" mensaje.html" method="_post" action="form.php">
+          
+
+           <fieldset>
+           <legend><h5>CUESTIONARIO </h5> </legend>
+           Nombre:
+           <input type="text" name="firstname" ><br>
+           Apellido:
+           <input type="text" name="lastname"><br><br>
+           
+
+           <label>Eres:</label> <br>
+           <input  id="alumno" type="radio" name="persona" value="alumno">
+            <label for="alumno">Estudiante </label>
+            <br>
+
+            <input  id="profe" type="radio" name="persona" value="profe">
+            <label for="profe">Docente</label>
+            <br>
+
+            <input  id="otro" type="radio" name="persona" value="otro">
+            <label for="otro">Otro </label>
+            <br>
+            <label for="plantel">De que plantel: </label>
+            <select id="plantel" name="plantel">
+              <option>Plantel 5</option>
+              <option>Plantel 6</option>
+              <option>Plantel 7</option>
+              <option>Plantel 9</option>
+              <option>Plantel 11</option>
+              <option>Plantel 19</option>
+              <option>Ninguno</option>
+            </select><br>
+            <label for="fecha">Fecha de nacimiento: </label>
+            <input type="date" name="date"><br>
+
+            <label for="colo">Color favorito: </label>
+            <input type="color" name="color"> <br>
+
+
+
+            <label for="num"> Que puntuacion le das a la pagina: </label>
+            <input type="number" name="num" id="num" min="0" max="10"><br>
+
+            <label for="correo">Email: </label>
+            <input type="Email" name="correo" id="correo" ><br>
+            <label for="comentario">Opinion de la pagina </label>
+            <textarea name="comentario" id="comentario"> </textarea><br>
+            <input type="reset" value="Resetear">
+            <input type="submit" value="Enviar">
+
+
+            </fieldset>
+         </form>
+          
+
+   </div> 
+    
+ </body>
+</html>  

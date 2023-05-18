@@ -1,0 +1,209 @@
+{
+	padding: 0%;
+	margin: 0%;
+}
+
+#todo{
+	
+	height: 650px;
+	padding-top: 1%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+#arriba{
+	height: 15%;
+	width: 40%;
+	margin-bottom: 3%;
+	float: right;
+}
+.menu{
+	list-style: none;
+	padding: 0;
+	background: #F9F9F9;
+	width: 80%;
+	height: 60%;
+	
+	margin: auto;
+	border: 1px solid black; border-radius:  30px;
+}
+.menu li a{
+	text-decoration:none;
+	color: black;
+	padding: 10%;
+	display: block;
+	margin: 6%;
+	font-family: times;
+	font-size: 18px;
+	font-weight: normal;
+
+}
+.menu li{
+	display: inline-block;
+	text-align: center;
+	
+}
+h1{
+	margin: 0%;
+	margin: 0.5em;
+	color: #61ABFF;
+	width: 40%;
+	font-size: 45px;
+	font-family: CHICKEN Pie Height;
+	text-transform: uppercase;
+	text-align: center;
+
+	border: 1px solid black ; border-radius: 30px;
+	background: #f9f9f9;	
+}
+h3{
+
+	font-family: times new roman;
+	text-align: justify;
+}
+#desarrollo{
+	height: 40%;
+	width: 60%;
+	background-color: #F9F9F9;
+	margin: auto;
+	margin-top: 3%;
+	margin-bottom: 2%;
+	padding: 1em;
+    border: 1px solid black ; border-radius: 30px;
+}
+body{
+	background-image: url(img/fondo.jpeg);
+}
+p{
+	padding: 0.5em;
+	font-family: times new roman;
+	text-align: justify;
+	font-size: 20px;
+}
+aside{
+	width: 25%;
+	float: right;
+	background-color: #BCBABE;
+	height: 65%;
+	border: 1px solid black; border-radius:  30px;
+	margin-left:0.5em;
+
+}
+header{
+	font-size: 30px;
+	text-align: center;
+	line-height: 150%;
+}
+#toda{
+	margin: 3em;
+	height: 1600px;
+	padding-top: 2%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+#tode{
+	margin: 3em;
+	height: 600px;
+	padding-top: 2%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+#final{
+	height: 13%;
+	background: #FFDAC1;
+	width: 50%;
+	margin: auto;
+}
+#cuerpo{
+	height: 1350PX;
+	background-color: #7FE6FF;
+	margin-bottom: 2%;
+	padding: 1em;
+	border: 1px solid black; border-radius:  30px;
+	display:
+}
+img{
+	border: 1px solid background:#7FE6FF; border-radius:  25px;
+}
+h2{
+	height: 30%;
+	background-color:#E2F0CB;
+	width: 60%;
+	padding-top: 1%;
+	margin: auto;
+	margin-bottom:  2%;
+	border: 1px solid black ; border-radius: 30px;
+	font-family: CHICKEN Pie Height;
+	text-transform: uppercase; 
+	font-size: 40px;
+	text-align: center;
+	color: #293250;
+}
+section{
+	width: 90%;
+	background-color: #BCBABE;
+	height: 90%;
+	border: 1px solid black; border-radius:  30px;
+	margin-left:0.5em;
+	text-transform: uppercase;
+	float: right;
+	padding: 0.5em;
+}
+#Documentos{
+	width: 90%;
+	background-color: #BCBABE;
+	height: 90%;
+	border: 1px solid black; border-radius:  30px;
+	margin-right:1em;
+	text-transform: uppercase;
+	float: left;
+}
+#pie{
+
+	height: 30%;
+	background: #FFDAC1;
+	width: 50%;
+	margin: auto;
+	padding-left: 1em;
+}
+h5{
+
+	padding: 0.5em;
+	font-family: times new roman;
+	text-align: justify;
+	font-size: 20px;
+}
+#arri{
+
+	height: 8%;
+	width: 40%;
+	margin-bottom: 1em;
+	float: right;
+	margin-top: 0%;
+}
+table{
+	width: 70%;
+	height: 70%;
+	background: white;
+	margin: auto;
+	margin: 1em;
+	margin-left: 13em;
+	padding: 1em;
+	border: 1px solid black; border-radius:  30px;
+}
+table tr{
+	background: #FFDAC1;
+	
+	width: 80%; 
+	text-align: center;
+	text-align: justify;
+
+}
+td{
+	font-family: times new roman;
+	text-align: justify;
+	font-size: 15px;
+	border: 1px solid black; 
+	margin: auto;
+	text-align: center;
+}
+
